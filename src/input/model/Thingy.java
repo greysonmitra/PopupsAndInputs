@@ -1,5 +1,9 @@
 package input.model;
-
+/**
+ * Creates a Thingy object to show access and proper variable types.
+ * @author gmit3891
+ * @version 1.0 09/24/15
+ */
 public class Thingy
 {
 	private String name;
@@ -15,6 +19,7 @@ public class Thingy
 	
 	public Thingy(String name, int age, double weight)                       //CONSTRUCTOR
 	{
+		//this. refers to the current instance of this object (A thingy).
 		this.name = name;
 		this.age = age;
 		this.weight = weight;
