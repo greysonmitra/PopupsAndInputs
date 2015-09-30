@@ -9,6 +9,10 @@ public class PopupController
 	private PopupDisplay myPopups;
 	private Thingy myTestThing;
 	
+	
+	
+	
+	
 	public PopupController()
 	{
 		myPopups = new PopupDisplay(); 
@@ -45,6 +49,11 @@ public class PopupController
 		
 		String tempWeight = myPopups.grabAnswer("Type in your weight");
 		double myWeight; 
+		
+		while(!isDouble(tempWeight))
+		{
+			tempWeight = myPopups.grabAnswer("Type in a positive floating-point for your weight!!!!!");
+		}
 		
 		if(isDouble(tempWeight))
 		{

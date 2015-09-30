@@ -14,6 +14,8 @@ public class Thingy
 	 * Creates objects with bad values. There are impossible values meant to be reset.
 	 */
 	
+	
+	
 	public Thingy()
 	{
 		name = "";
@@ -28,6 +30,8 @@ public class Thingy
 	 * @param weight
 	 */
 	
+	
+	
 	public Thingy(String name, int age, double weight)                       //CONSTRUCTOR
 	{
 		//this. refers to the current instance of this object (A thingy).
@@ -35,6 +39,9 @@ public class Thingy
 		this.age = age;
 		this.weight = weight;
 	}
+	
+	
+	
 	
 	public String getName()
 	{
